@@ -27,7 +27,7 @@ By participating in this project, you agree to:
 ## Ways to Contribute
 
 ### 🐛 Report Bugs
-Found a bug? [Open an issue](https://github.com/lordaimer/iris/issues/new) with:
+Found a bug? [Open an issue](https://github.com/ereinaimer/iris/issues/new) with:
 - A clear, descriptive title
 - Steps to reproduce the problem
 - Expected vs actual behavior
@@ -35,7 +35,7 @@ Found a bug? [Open an issue](https://github.com/lordaimer/iris/issues/new) with:
 - Relevant logs or screenshots
 
 ### 💡 Suggest Features
-Have an idea? Check the [roadmap](.project/roadmap.md) first, then [open an issue](https://github.com/lordaimer/iris/issues/new) describing:
+Have an idea? Check the [roadmap](.project/roadmap.md) first, then [open an issue](https://github.com/ereinaimer/iris/issues/new) describing:
 - The problem you're trying to solve
 - Your proposed solution
 - Any alternatives you've considered
@@ -68,7 +68,7 @@ Ready to code? Check out something from the [roadmap](.project/roadmap.md) and s
    ```
 3. Add the upstream remote:
    ```bash
-   git remote add upstream https://github.com/lordaimer/iris.git
+   git remote add upstream https://github.com/ereinaimer/iris.git
    ```
 
 ## Development Setup
@@ -305,9 +305,9 @@ If your change is platform-specific:
 
 ## Getting Help
 
-- **Questions?** Open a [discussion](https://github.com/lordaimer/iris/issues/new)
+- **Questions?** Open a [discussion](https://github.com/ereinaimer/iris/issues/new)
 - **Stuck?** Comment on the issue you're working on
-- **Found a bug?** [Open an issue](https://github.com/lordaimer/iris/issues/new)
+- **Found a bug?** [Open an issue](https://github.com/ereinaimer/iris/issues/new)
 
 ## Recognition
 

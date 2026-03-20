@@ -39,7 +39,7 @@ jobs:
           Write-Host "Updating Scoop manifest for version: $version"
           
           # download the windows executable
-          $downloadUrl = "https://github.com/lordaimer/iris/releases/download/$tag/iris-windows-amd64.exe"
+          $downloadUrl = "https://github.com/ereinaimer/iris/releases/download/$tag/iris-windows-amd64.exe"
           Write-Host "Downloading from: $downloadUrl"
           
           # add a small retry loop for resilience
@@ -81,7 +81,7 @@ jobs:
           $manifestContent = $manifestContent -replace '"version":\s*"[\d\.]+"', "`"version`": `"$version`""
           
           # update url (line 8) - critical fix to ensure concrete URL is used
-          $manifestContent = $manifestContent -replace '"url":\s*"https://.*/v[\d\.]+/.*"', "`"url`": `"https://github.com/lordaimer/iris/releases/download/$tag/iris-windows-amd64.exe`""
+          $manifestContent = $manifestContent -replace '"url":\s*"https://.*/v[\d\.]+/.*"', "`"url`": `"https://github.com/ereinaimer/iris/releases/download/$tag/iris-windows-amd64.exe`""
 
           # update hash (line 9)
           $manifestContent = $manifestContent -replace '"hash":\s*"[a-f0-9]{64}"', "`"hash`": `"$checksum`""

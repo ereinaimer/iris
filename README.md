@@ -1,14 +1,14 @@
 <h1>Iris</h1>
 <p>
-    <a href="https://github.com/lordaimer/iris/releases/latest">
-        <img alt="GitHub Release" src="https://img.shields.io/github/v/release/lordaimer/iris?color=greenlight&label=latest%20release">
+    <a href="https://github.com/ereinaimer/iris/releases/latest">
+        <img alt="GitHub Release" src="https://img.shields.io/github/v/release/ereinaimer/iris?color=greenlight&label=latest%20release">
     </a>
-    <a href="https://github.com/lordaimer/iris/actions">
-        <img alt="GitHub Actions Workflow Status" src="https://img.shields.io/github/actions/workflow/status/lordaimer/iris/ci.yml?label=tests">       </a>
+    <a href="https://github.com/ereinaimer/iris/actions">
+        <img alt="GitHub Actions Workflow Status" src="https://img.shields.io/github/actions/workflow/status/ereinaimer/iris/ci.yml?label=tests">       </a>
     <a href="https://crates.io/crates/iris-cli">
       <img alt="Crates.io" src="https://img.shields.io/crates/v/iris-cli">
     </a>
-    <img alt="License" src="https://img.shields.io/github/license/lordaimer/iris">
+    <img alt="License" src="https://img.shields.io/github/license/ereinaimer/iris">
 </p>
 
 A fast, minimal, config-driven file organizer built with Rust.  
@@ -28,7 +28,7 @@ Iris helps you sort and organize your messy folders automatically using defined 
 ## Installation
 
 ### Download Binary
-Download the latest release for your platform from the [Releases Page](https://github.com/lordaimer/iris/releases).
+Download the latest release for your platform from the [Releases Page](https://github.com/ereinaimer/iris/releases).
 
 ### Chocolatey (Windows)
 Run the following command in an elevated PowerShell: 
@@ -46,7 +46,7 @@ scoop install iris
 
 If you prefer to use our bucket directly:
 ```powershell
-scoop bucket add iris https://github.com/lordaimer/iris
+scoop bucket add iris https://github.com/ereinaimer/iris
 scoop install iris/iris
 ```
 </details>

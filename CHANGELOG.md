@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
-## [1.3.6](https://github.com/lordaimer/iris/compare/v1.3.5...v1.3.6) - 2025-12-30
+## [1.3.6](https://github.com/ereinaimer/iris/compare/v1.3.5...v1.3.6) - 2025-12-30
 
 ### What's changed
 
@@ -14,7 +14,7 @@ v1.3.6 updates the Chocolatey Package Update CI workflow to update version and r
 - update chocolatey update CI workflow to update version and release notes
 - add a new .png icon in assets/icon/ for Chocolatey compatibility
 
-## [1.3.5](https://github.com/lordaimer/iris/compare/v1.3.4...v1.3.5) - 2025-12-29
+## [1.3.5](https://github.com/ereinaimer/iris/compare/v1.3.4...v1.3.5) - 2025-12-29
 
 ### What's changed
 
@@ -23,19 +23,19 @@ v1.3.5 fixes the CI workflow bug of not triggering chocolatey update after relea
 ### Fixed
 - add a workflow_dispatch trigger to the update-chocolatey workflow
 
-## [1.3.4](https://github.com/lordaimer/iris/compare/v1.3.3...v1.3.4) - 2025-12-29
+## [1.3.4](https://github.com/ereinaimer/iris/compare/v1.3.3...v1.3.4) - 2025-12-29
 
 ### What's changed
 
 v1.3.4 updates the CI workflow to trigger chocolatey update only after release completes & release == success
 
-## [1.3.3](https://github.com/lordaimer/iris/compare/v1.3.2...v1.3.3) - 2025-12-29
+## [1.3.3](https://github.com/ereinaimer/iris/compare/v1.3.2...v1.3.3) - 2025-12-29
 
 ### What's changed
 
 v1.3.3 moves all the chocolatey packaging to dist/chocolatey branch and updates the github actions workflow to make new commits related to chocolatey in the dist/chocolatey branch
 
-## [1.3.2](https://github.com/lordaimer/iris/compare/v1.3.1...v1.3.2) - 2025-12-29
+## [1.3.2](https://github.com/ereinaimer/iris/compare/v1.3.1...v1.3.2) - 2025-12-29
 
 ### What's New
 v1.3.2 introduces a pre-push hook that verifies the changelog entry exists for the version being pushed.
@@ -46,7 +46,7 @@ v1.3.2 introduces a pre-push hook that verifies the changelog entry exists for t
 ### Fixed
 - Fix build failures when changelog entry doesn't exist for the version being built
 
-## [1.3.1](https://github.com/lordaimer/iris/compare/v1.3.0...v1.3.1) - 2025-12-29
+## [1.3.1](https://github.com/ereinaimer/iris/compare/v1.3.0...v1.3.1) - 2025-12-29
 
 ### What's Changed
 v1.3.1 gates PowerShell completions install when execution policy is restrictive and adds Chocolatey package configuration and automation.
@@ -69,7 +69,7 @@ v1.3.0 adds support for shell completions on unix platforms.
 ### Changed
 - update README.md
 
-## [1.2.0](https://github.com/lordaimer/iris/compare/v1.1.1...v1.2.0) - 2025-12-28
+## [1.2.0](https://github.com/ereinaimer/iris/compare/v1.1.1...v1.2.0) - 2025-12-28
 
 ### What’s New
 v1.2.0 introduces shell completion support, with automatic setup on Windows and manual generation support for other platforms.
@@ -82,7 +82,7 @@ v1.2.0 introduces shell completion support, with automatic setup on Windows and 
 ### Known Issues
 - Auto-install not implemented on non-Windows platforms
 
-## [1.1.1](https://github.com/lordaimer/iris/releases/tag/v1.1.1) - 2025-12-27
+## [1.1.1](https://github.com/ereinaimer/iris/releases/tag/v1.1.1) - 2025-12-27
 
 ### What’s New
 Initial public release with core file-sorting functionality and a config-driven workflow.

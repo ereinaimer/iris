@@ -2,12 +2,12 @@
 name = "iris-cli"
 version = "1.3.6"
 edition = "2021"
-authors = ["lordaimer <araneaimer@gmail.com>"]
+authors = ["ereinaimer <araneaimer@gmail.com>"]
 description = "Smart file organization"
 license = "MIT"
-repository = "https://github.com/lordaimer/iris"
+repository = "https://github.com/ereinaimer/iris"
 readme = "README.md"
-homepage = "https://github.com/lordaimer/iris"
+homepage = "https://github.com/ereinaimer/iris"
 keywords = ["cli", "organizer", "automation", "filesystem", "sorter"]
 categories = ["command-line-utilities", "filesystem"]
 

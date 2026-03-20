@@ -37,7 +37,7 @@ jobs:
           $version = $tag -replace '^v', ''
           
           # Download the Windows executable
-          $downloadUrl = "https://github.com/lordaimer/iris/releases/download/$tag/iris-windows-amd64.exe"
+          $downloadUrl = "https://github.com/ereinaimer/iris/releases/download/$tag/iris-windows-amd64.exe"
           Write-Host "Downloading from: $downloadUrl"
           
           # Add a small retry loop for resilience
@@ -67,7 +67,7 @@ jobs:
           $nuspecPath = "chocolatey/iris.nuspec"
           $nuspecContent = Get-Content $nuspecPath -Raw
           $nuspecContent = $nuspecContent -replace '<id>iris-cli</id>\s*<version>[\d\.]+</version>', "<id>iris-cli</id>`r`n    <version>$version</version>"
-          $nuspecContent = $nuspecContent -replace '<releaseNotes>.*?</releaseNotes>', "<releaseNotes>https://github.com/lordaimer/iris/releases/tag/$tag</releaseNotes>"
+          $nuspecContent = $nuspecContent -replace '<releaseNotes>.*?</releaseNotes>', "<releaseNotes>https://github.com/ereinaimer/iris/releases/tag/$tag</releaseNotes>"
           Set-Content -Path $nuspecPath -Value $nuspecContent -NoNewline
           
           # Update install script (chocolatey/tools/chocolateyinstall.ps1)

@@ -27,7 +27,7 @@ pub fn init_defaults(path: &PathBuf) -> std::io::Result<()> {
     let content = template
         .replace("{project_name}", &project_name)
         .replace("{version}", &version)
-        .replace("{author}", "lordaimer")
+        .replace("{author}", "ereinaimer")
         .replace("{home_dir}", &home_dir);
 
     if let Some(parent) = path.parent() {
