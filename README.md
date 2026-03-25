@@ -8,6 +8,9 @@
     <a href="https://crates.io/crates/iris-cli">
       <img alt="Crates.io" src="https://img.shields.io/crates/v/iris-cli">
     </a>
+    <a href="https://indiestack.ai/tool/iris">
+        <img alt="IndieStack" src="https://img.shields.io/badge/Listed%20on-IndieStack-00D4F5?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTEyIDJMMyA3djEwbDkgNSA5LTVIN0wxMiAyeiIvPjwvc3ZnPg==">
+    </a>
     <img alt="License" src="https://img.shields.io/github/license/ereinaimer/iris">
 </p>
 
